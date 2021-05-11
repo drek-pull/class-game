@@ -1,0 +1,19 @@
+import java.lang.StringBuilder;
+public static String scrambleWord(String word){
+	StringBuilder b = new StringBuilder();
+	char next;
+	for(int c =0; c < word.length(); c++){
+		if(word.charAt(c) == 'A'){
+			if(c == word.length()-1 && word.charAt(c+1) == 'A'){
+				next = word.charAt(c+1);
+				char curr = word.charAt(c);
+				b.append(next + curr);
+				c++;
+			}
+		}
+		else{
+		b.append(word.charAt(c));
+		}
+	}
+	return b.toString();
+}

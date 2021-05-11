@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=common
+comment0.text=\r\n\ common\ things\ that\ everyone\ can\ use\ to\ make\ you\ have\ to\ type\ less\ generally.\r\n\ \r\n\ @CircleOnyx\ -\ Company\r\n\ @RageMan\ -\ Main\ Programmer\r\n\ Alpha\ 0.1\r\n
+comment1.params=
+comment1.target=common()
+comment2.params=s\ ret
+comment2.target=void\ Print(java.lang.Object,\ boolean)
+comment3.params=i\ j
+comment3.target=int\ Random(int,\ int)
+comment4.params=
+comment4.target=int\ ScI()
+comment5.params=
+comment5.target=java.lang.String\ ScS()
+comment6.params=i
+comment6.target=boolean\ IsOdd(int)
+comment7.params=number
+comment7.target=java.lang.String\ TrimNum(java.lang.String)
+comment8.params=s
+comment8.target=java.lang.String\ TranslateToXml(java.lang.String)
+comment9.params=s
+comment9.target=java.lang.String\ TranslateFromXml(java.lang.String)
+numComments=10

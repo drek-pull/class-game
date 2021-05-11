@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Meter
+comment0.text=\r\n\ A\ meter\ that\ has\ a\ minimum,\ maximum\ and\ current\ amount\ between\ them.\r\n\r\n\ @Circly\ O\r\n\ @version\ 0.1\r\n
+comment1.params=min\ max
+comment1.target=Meter(int,\ int)
+comment2.params=add
+comment2.target=void\ Add(int)
+comment3.params=sub
+comment3.target=void\ Sub(int)
+comment4.params=
+comment4.target=int\ GetMin()
+comment5.params=
+comment5.target=int\ GetMax()
+comment6.params=
+comment6.target=int\ GetCur()
+comment7.params=m
+comment7.target=int\ Compare(Meter)
+numComments=8

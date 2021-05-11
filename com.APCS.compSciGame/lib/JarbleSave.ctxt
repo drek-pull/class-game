@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=JarbleSave
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ JarbleSave\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=JarbleSave()
+comment10.params=
+comment10.target=void\ ioLoad()
+comment2.params=save_this\ save_Type\ file
+comment2.target=void\ Save(java.lang.Object,\ byte,\ java.lang.String)
+comment2.text=\r\n\ Save\ types\r\n\ 0b00000001\ ->\ JSave\r\n\ 0b00000010\ ->\ encodedSave\r\n\ 0b00000100\ ->\ decodedSave\r\n\ 0b00001000\ ->\ ioSave\r\n\ 0b00010000\ ->\ *****\r\n\ 0b00100000\ ->\ *****\r\n\ 0b01000000\ ->\ *****\r\n\ 0b10000000\ ->\ *****\r\n
+comment3.params=load_this\ save_Type
+comment3.target=void\ Load(java.lang.Object,\ byte)
+comment4.params=
+comment4.target=void\ JSave()
+comment5.params=
+comment5.target=void\ JLoad()
+comment6.params=
+comment6.target=int\ GetSum()
+comment7.params=
+comment7.target=void\ CSum()
+comment8.params=sum
+comment8.target=void\ RSum(int)
+comment9.params=
+comment9.target=void\ ioSave()
+numComments=11
