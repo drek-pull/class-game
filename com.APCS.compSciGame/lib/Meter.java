@@ -32,6 +32,6 @@ public final class Meter
     }
     public int Compare(Meter m){
         int diff = m.GetCur()-current;
-        return 0;
+        return diff;
     }
 }
