@@ -30,6 +30,6 @@ public class Room2 extends Room
                 System.out.println("That is incorrect! Keep trying... that is the only way you can escape this room.");
             }
         }
-        System.out.println("Congrats!!! You made it out! But you aren't done, time to move onto room 2...");
+        System.out.println("Congrats!!! You made it out! But you aren't done, time to move onto room 3...");
     }
 }
