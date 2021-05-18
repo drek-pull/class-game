@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Room4 extends Room
 {
@@ -17,7 +18,7 @@ public class Room4 extends Room
     @Override
     public void getPuzzleAnswers()
     {
-        while(!escape)
+        while(escape)
         {
             answer = s.nextLine();
             if(answer.equals("david"))
@@ -27,6 +28,7 @@ public class Room4 extends Room
             else
             {
                 System.out.println("That is incorrect! Keep trying... that is the only way you can escape this room.");
+                Puzzle();
             }
         }
         System.out.println("Congrats!!! You made it out!");
