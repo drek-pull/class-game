@@ -11,6 +11,7 @@ public class Room1 extends Room
         System.out.println("Welcome to "+name+"!");
         System.out.println("In order to make it to the next room, you have to go through all of the obstacles in this room.");
         System.out.println("What has to be broken, before you use it?");
+        getPuzzleAnswers();
         
 
     }
