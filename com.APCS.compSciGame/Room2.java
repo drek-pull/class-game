@@ -12,7 +12,7 @@ public class Room2 extends Room
         System.out.println("Welcome to "+name+"!");
         System.out.println("In order to make it to the next room, you have to go through all of the obstacles in this room.");
         System.out.println("Riddle: The more you take, the more you leave behind. What am I?");
-
+        getPuzzleAnswers();
     }
 
     @Override
