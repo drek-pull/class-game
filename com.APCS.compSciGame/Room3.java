@@ -18,7 +18,7 @@ public class Room3 extends Room
     @Override
     public void getPuzzleAnswers()
     {
-        while(!escape)
+        while(escape)
         {
             answer = s.nextLine();
             if(answer.equals("penny"))
@@ -28,6 +28,7 @@ public class Room3 extends Room
             else
             {
                 System.out.println("That is incorrect! Keep trying... that is the only way you can escape this room.");
+                Puzzle();
             }
         }
         System.out.println("Congrats!!! You made it out! But you aren't done, time to move onto room 4...");
