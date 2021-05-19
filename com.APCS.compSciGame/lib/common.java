@@ -15,6 +15,13 @@ public final class common //final so nothing can inherit anything from it.
     static StringBuilder Sbuild;
     static Random ran = new Random();
     static Scanner ScS = new Scanner(System.in);
+
+    public static void Sleep(int milis){
+        try{
+            Thread.sleep(milis);
+        }catch(Exception e){}
+    }
+    
     public static void Print(Object s, boolean ret)//Prints the object to the terminal. if ret is true it does println instead of just print.
     {
         if(ret){
