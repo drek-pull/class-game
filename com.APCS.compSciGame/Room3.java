@@ -19,12 +19,13 @@ public class Room3 extends Room
     @Override
     public void getPuzzleAnswers()
     {
-        while(escape)
+        while(!escape)
         {
-            answer = s.nextLine();
-            if(answer.equals("penny"))
+            answer = s.nextLine().toLowerCase();
+            if(answer.contains("penny"))
             {
                 escape = true;
+                key = true;
             }
             else
             {

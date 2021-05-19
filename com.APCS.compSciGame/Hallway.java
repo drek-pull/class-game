@@ -12,9 +12,7 @@ public class Hallway
     Hallway(Room r1, Room r2){
         room1 = r1;
         room2 = r2;
-    }
-    private StringBuilder roomLayout = new StringBuilder();
-    public Room Puzzle(){
+        roomLayout = new StringBuilder();
         roomLayout.append("      |             |\n");
         roomLayout.append("      |             |\n");
         roomLayout.append("      |             |\n");
@@ -26,8 +24,11 @@ public class Hallway
         roomLayout.append("      |     YOU     |\n");
         roomLayout.append("      |      v      |\n");
         roomLayout.append("      |      █      |\n");
-        common.Print(roomLayout.toString(), true);
-        common.Print("\n    do you want to go left, right, or foreward?", true);
+    }
+    private StringBuilder roomLayout;
+    public Room Puzzle(){
+        PrintLay();
+        common.Print("\n    do you want to go left, or right?", true);
         String s = common.ScS().toLowerCase();
         if(s.equals("left") || s.equals("l")){
             return room1;
@@ -36,5 +37,8 @@ public class Hallway
             return room2;
         }
         return null;
+    }
+    public void PrintLay(){
+        common.Print(roomLayout.toString(), true);
     }
 }

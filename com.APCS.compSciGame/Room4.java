@@ -19,12 +19,13 @@ public class Room4 extends Room
     @Override
     public void getPuzzleAnswers()
     {
-        while(escape)
+        while(!escape)
         {
-            answer = s.nextLine();
-            if(answer.equals("David"))
+            answer = s.nextLine().toLowerCase();
+            if(answer.contains("david"))
             {
                 escape = true;
+                key = true;
             }
             else
             {
@@ -32,6 +33,6 @@ public class Room4 extends Room
                 Puzzle();
             }
         }
-        System.out.println("Congrats!!! You made it out!");
+        System.out.println("Congrats!!! You beat the 4th room!");
     }
 }
